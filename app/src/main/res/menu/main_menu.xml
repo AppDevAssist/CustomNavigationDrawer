@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home"
+            android:id="@+id/firstFragment"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/secondFragment"
+            android:icon="@drawable/ic_inbox"
+            android:title="Inbox" />
+    </group>
+    <item android:title="Profile">
+        <menu >
+            <group  android:checkableBehavior="single">
+                <item
+                    android:id="@+id/thirdFragment"
+                    android:icon="@drawable/ic_adb"
+                    android:title="Manage Coins" />
+
+                <item
+                    android:id="@+id/fourthFragment"
+                    android:icon="@drawable/ic_amp"
+                    android:title="Your Coins" />
+                <item
+                    android:id="@+id/fifthFragment"
+                    android:icon="@drawable/ic_alarm"
+                    android:title="Buy Coins" />
+                <item
+                    android:id="@+id/sixthFragment"
+                    android:icon="@drawable/ic_reaction"
+                    android:title="Sell Coins" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <group  android:checkableBehavior="single">
+                <item
+                    android:id="@+id/seventhFragment"
+                    android:icon="@drawable/ic_bedtime"
+                    android:title="Manage Account" />
+
+                <item
+                    android:id="@+id/eithFargment"
+                    android:icon="@drawable/ic_cloud"
+                    android:title="Followers" />
+                <item
+                    android:id="@+id/ninethFragment"
+                    android:icon="@drawable/ic_adb"
+                    android:title="Followings" />
+                <item
+                    android:id="@+id/tenthFragment"
+                    android:icon="@drawable/ic_inbox"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <group android:id="@+id/about">
+        <item
+            android:checkable="true"
+            android:title="About"/>
+        <item
+            android:checkable="true"
+            android:title="Contact Us"/>
+    </group>
+</menu>

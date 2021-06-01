@@ -8,4 +8,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.NavigationDrawer" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+        <item name="colorControlHighlight">@color/yellow_500</item>
+        <item name="colorPrimary">@color/orange_500</item>
+    </style>
 </resources>
