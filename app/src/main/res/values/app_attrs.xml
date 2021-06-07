@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawerItemBackground" format="color"/>
+    <attr name="drawerItemColorChecked" format="color"/>
+    <attr name="drawerItemColorNormal" format="color"/>
+    <attr name="navHeaderTitleColor" format="color"/>
+    <attr name="navHeaderDescriptionColor" format="color"/>
+    <attr name="drawerBackground" format="color"/>
+</resources>

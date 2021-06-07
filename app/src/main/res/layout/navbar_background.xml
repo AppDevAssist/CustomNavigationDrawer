@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="Mr. XYZ"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColor="@color/gray_900"
+        android:textColor="?attr/navHeaderTitleColor"
         app:layout_constraintTop_toBottomOf="@+id/profile_image"
         app:layout_constraintLeft_toLeftOf="@+id/profile_image"
         android:layout_marginTop="5dp"/>
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:text="Manage your profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/gray_800"
+        android:textColor="?attr/navHeaderDescriptionColor"
         app:layout_constraintTop_toBottomOf="@+id/user_name"
         app:layout_constraintLeft_toLeftOf="@+id/user_name"
         android:layout_marginTop="5dp"

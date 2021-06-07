@@ -7,6 +7,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="drawerItemBackground">@color/gray_800</item>
+        <item name="drawerItemColorChecked">@color/yellow_500</item>
+        <item name="drawerItemColorNormal">@color/gray_900</item>
+        <item name="navHeaderTitleColor">@color/gray_900</item>
+        <item name="navHeaderDescriptionColor">@color/gray_800</item>
+        <item name="drawerBackground">@color/white</item>
+
     </style>
 
     <style name="Theme.NavigationDrawer" parent="ThemeOverlay.MaterialComponents.Light">
